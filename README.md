@@ -1,6 +1,8 @@
 # 🖐️ Automated Sign Language Detector (AI + Computer Vision)
 
-## 🧠 **Project Overview**
+---
+
+## 🧠 Project Overview
 
 The **Automated Sign Language Detector** is an AI-powered system designed to bridge communication gaps between hearing-impaired individuals and people who do not understand sign language.
 
@@ -10,7 +12,7 @@ This project aims to improve accessibility and inclusivity by enabling smooth co
 
 ---
 
-## 🎯 **Problem Statement**
+## 🎯 Problem Statement
 
 Hearing-impaired individuals often face communication barriers in daily life due to the lack of people who understand sign language.
 
@@ -23,9 +25,7 @@ This system solves these issues by providing an **automated sign-to-text convers
 
 ---
 
-## ⚙️ **System Workflow**
-
-The system works in the following stages:
+## ⚙️ System Workflow
 
 ### 1. 📸 Image Acquisition
 - Captures hand gestures using a webcam or camera  
@@ -54,91 +54,128 @@ The system works in the following stages:
 
 ---
 
-## 🏗️ **System Architecture**
+## 🏗️ System Architecture
 
 Camera Input → Image Preprocessing → CNN Model → Gesture Classification → Text Output → Speech Output (Optional)
 
 ---
 
-## 🧰 **Tech Stack**
+## 🧰 Tech Stack
 
 - Python  
 - OpenCV  
 - TensorFlow / Keras (CNN Model)  
 - NumPy  
-- Matplotlib (training visualization)  
-- Text-to-Speech (TTS) library  
+- Matplotlib (visualization)  
+- Text-to-Speech (TTS library)  
 
 ---
 
-## 📊 **Model Training**
+## 📊 Dataset & Model Visualizations
 
-- Dataset: Hand gesture images  
+### 📌 Class Distribution
+![Class Distribution](Class%20distribution.png)
+
+---
+
+### 📌 Label Samples
+![Label Samples](label.png)
+
+---
+
+### 📌 Model Accuracy
+![Model Accuracy](model%20accuracy.png)
+
+---
+
+### 📌 Model Loss
+![Model Loss](model%20loss.png)
+
+---
+
+### 📌 Training Accuracy Curve
+![Accuracy Curve](accuracy.png)
+
+---
+
+### 📌 Confusion Matrix / Heatmap
+![Heatmap](heatmap.png)
+
+---
+
+## 🧠 Model Training
+
+- Dataset: Sign Language MNIST / Gesture Images  
 - Model: Convolutional Neural Network (CNN)  
-- Output classes: Alphabets / gestures  
+- Output: Alphabets / gesture classes  
 - Training includes feature extraction + classification  
 
 ---
 
-## 📸 **Screenshots**
+## 🖐️ Project Outputs
 
 ### 🏠 Home Page
-(Add screenshot here)
-
-### 🧠 Model Training Output
-(Add screenshot here)
-
-### 🖐️ Gesture Prediction Output
-(Add screenshot here)
+![Home Page](home%20page.png)
 
 ---
 
-## 🚀 **Key Features**
+### 🤖 Output Prediction Page
+![Output Page](output%20page.png)
+
+---
+
+### 🔄 System Flowchart
+![Flowchart](Flowchart.png)
+
+---
+
+## 🚀 Key Features
 
 - Real-time sign language detection  
 - Camera-based gesture recognition  
 - CNN-based classification model  
 - Text output conversion  
 - Optional speech output (TTS)  
-- Works without human interpreter  
+- No human interpreter required  
 
 ---
 
-## 🌍 **Applications**
+## 🌍 Applications
 
 - Schools for hearing-impaired students  
 - Hospitals for patient communication  
 - Public service centers  
-- Inclusive workplace communication  
+- Workplace accessibility  
 - Assistive AI systems  
 
 ---
 
-## 🔮 **Future Enhancements**
+## 🔮 Future Enhancements
 
-- Support for full sign language sentences  
-- Multi-language sign recognition  
-- Mobile application version  
-- Improved real-time accuracy using advanced models (YOLO / Transformers)  
-- Facial expression integration  
+- Support for full sentence recognition  
+- Multi-language sign detection  
+- Mobile app integration  
+- Improved accuracy using advanced deep learning models (YOLO / Transformers)  
+- Facial expression recognition  
 
 ---
 
-## 🏆 **Project Impact**
+## 🏆 Project Impact
 
-This project demonstrates the application of:
+This project demonstrates:
 
 - Deep Learning (CNN)  
 - Computer Vision  
 - Human-computer interaction  
-- Assistive AI technology  
+- Assistive AI systems  
 
-It contributes to **accessibility, inclusivity, and real-world AI applications**, making it highly relevant for research and abroad scholarship profiles.
+It contributes to **accessibility, inclusivity, and real-world AI applications**, making it suitable for internships, research, and abroad scholarship profiles.
 
 ---
 
-## 👩‍💻 **Author**
+## 👩‍💻 Author
 
-Charuhasini  
+**Charuhasini**  
 AI & Data Science Student  
-GitHub: https://github.com/Charuhasini30
+
+🔗 GitHub: https://github.com/Charuhasini30
